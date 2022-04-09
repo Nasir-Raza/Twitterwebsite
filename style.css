@@ -1,0 +1,134 @@
+ .leftcol{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width:100%;
+} 
+
+
+ .rightcol{
+    display:inline-flexbox;
+    padding-top: 20px;
+    width:100%;
+} 
+
+
+
+.mhead{
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+.shead{
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.btn-1{
+    padding-top: 5px;
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    background-color:white;
+    border: 1px solid gray;
+}
+
+.btn-2{
+    padding-top: 5px;
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    background-color:white;
+    border: 1px solid gray;
+}
+
+.btn-3{
+    padding-top: 5px;
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    background-color:white;
+    border: none;
+}
+
+.btn-4{
+    padding-top: 5px;
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    background-color:lightblue;
+    border: none;
+}
+
+.btn-5{
+    padding-top: 5px;
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 25px;
+    text-align: center;
+    color:cornflowerblue;
+    background-color:white;
+    border: 1px solid gray;
+}
+
+span{
+    font-size: small;
+}
+
+h4{
+    padding-top: 30px;
+    font-weight:800px;
+ }
+
+ h5{
+     text-align: center;
+ }
+
+ .btn-2:hover{
+    background-color:     rgba(211,211,211,.6);
+}
+
+.btn-3:hover{
+cursor:text
+}
+
+.btn-4:hover{
+    
+    background-color: rgba(47, 127, 201, 0.9);
+    }
+    
+
+ .btn-5:hover{
+     background-color: rgba(173,216,230,.2);
+ }
+
+ ul{
+    padding-top: 20px; 
+ }
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+    font-size: small;
+ }
+
+ 

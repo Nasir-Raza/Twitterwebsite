@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Twitter Home</title>
+    <link rel="stylesheet" href="stylehome.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- sidebar starts -->
+     
+    <div class="sidebar">
+        <img src="assets/Twitter-logo.png" alt="twitter-logo" width="20" height="20" />
+        <div class="sidebarOption active">
+            <span class="material-icons"><img src="assets/Home.png" alt="home" width="20" height="20" /></span>
+            <h2>Home</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/Search.png" alt="search" width="20" height="20" /></span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/Bell-light.png" alt="bell" width="20" height="20" /></span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/Envelope.png" alt="envelope" width="20" height="20" /></span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/Bookmark.png" alt="bookmark" width="20" height="20" /></span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/List.png" alt="list" width="20" height="20" /></span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/Profile.png" alt="profile" width="20" height="20" /></span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-icons"><img src="assets/More.png" alt="more" width="20" height="20" /></span>
+            <h2>More</h2>
+        </div>
+        <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+        <div class="feed__header">
+            <h2>Home</h2>
+        </div>
+
+        <!-- tweetbox starts -->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox__input">
+                    <img src="assets/avatar3.png" alt="" />
+                    <input type="text" placeholder="What's happening?" />
+                </div>
+                <button class="tweetBox__tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- tweetbox ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="assets/avatar2.png" alt="" />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Ali Hasan
+                            <span class="post__headerSpecial"><span class="material-icons post__badge"> verified
+                                </span>@alihasan</span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="assets/nature.jpg"
+                    alt="" />
+                <div class="post__footer">
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="assets/avatar6.png" alt="" />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Sara Khan
+                            <span class="post__headerSpecial"><span class="material-icons post__badge"> verified
+                                </span>@sarakhan</span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="assets/snow.jpg"
+                    alt="" />
+                <div class="post__footer">
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post__avatar">
+                <img src="assets/avatar5.png" alt="" />
+            </div>
+
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Sana
+                            <span class="post__headerSpecial"><span class="material-icons post__badge"> verified
+                                </span>@sana</span>
+                        </h3>
+                    </div>
+                    <div class="post__headerDescription">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="assets/lights.jpg"
+                    alt="" />
+                <div class="post__footer">
+                    <span class="material-icons"> repeat </span>
+                    <span class="material-icons"> favorite_border </span>
+                    <span class="material-icons"> publish </span>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+    </div>
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+    <div class="widgets">
+        <div class="widgets__input">
+            <span class="material-icons widgets__searchIcon"><img src="assets/Search.png" alt="search" width="20" height="20" /></span>
+            <input type="text" placeholder="Search Twitter" />
+        </div>
+
+        <div class="widgets__widgetContainer">
+            <h2>What's happening?</h2>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Sunsets don't get much better than this one over
+                    <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+                    <a href="https://twitter.com/hashtag/nature?src=hash&ref_src=twsrc%5Etfw">#nature</a>
+                    <a href="https://twitter.com/hashtag/sunset?src=hash&ref_src=twsrc%5Etfw">#sunset</a>
+                    <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+                </p>
+                — US Department of the Interior (@Interior)
+                <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <!-- widgets ends -->
+
+</body>
+
+</html>
